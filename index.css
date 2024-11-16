@@ -1,3 +1,6 @@
+* {
+    outline: red solid 1px;
+}
 
 body {
     margin: 0px;
@@ -115,4 +118,19 @@ body {
     font-size: 13px;
     font-weight: 300;
     color: #7b7b7b;
+}
+.quote-container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: flex-end;
+}
+.quote {
+    color: #2e3b4d;
+    font-size: 50px;
+    font-weight: 300;
+}
+p {
+    margin: 0px;
 }
