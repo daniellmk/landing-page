@@ -1,6 +1,4 @@
-* {
-    outline: red solid 1px
-}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -23,7 +21,7 @@ body {
 .header {
     background-color: #1F2937;
     align-content: center;
-    padding: 10px 100px;
+    padding: 15px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -45,4 +43,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.subsec1 {
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px 100px;
+    gap: 60px
+}
+.subsec1 button {
+    height: 30px;
+    width: 100px;
+    padding: 3px 10px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border-color: transparent;
+    color: #f9faf8;
+}
+.ss1-main {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 13px;
+}
+.ss1-sub {
+    color: #d6d6d6;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 20px;
 }
