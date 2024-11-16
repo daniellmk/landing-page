@@ -74,3 +74,36 @@ body {
 .subsec1 img {
     border-radius: 20px;
 }
+.section2 {
+    margin: 50px;
+}
+.section2-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-weight: 900;
+    font-size: 30px;
+    color: #364354;
+}
+.info-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.info-blocks-container img {
+    border-radius: 20px;
+    margin: 10px;
+    outline: #37475e solid 3px;
+    
+}
+.info-block {
+    text-align: center;
+}
+.info-block-txt {
+    margin-bottom: 30px;
+    font-size: 13px;
+    font-weight: 300;
+    color: #7b7b7b;
+}
