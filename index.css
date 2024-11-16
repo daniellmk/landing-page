@@ -85,13 +85,14 @@ body {
     align-items: center;
     padding-bottom: 50px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
     color: #364354;
 }
 .info-blocks-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
 }
 .info-blocks-container img {
@@ -104,6 +105,7 @@ body {
     text-align: center;
 }
 .info-block-txt {
+    width: 190px;
     margin-bottom: 30px;
     font-size: 13px;
     font-weight: 300;
