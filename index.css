@@ -19,3 +19,30 @@ body {
     font-size: 10px;
     font-weight: 100;
 }
+
+.header {
+    background-color: #1F2937;
+    align-content: center;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+}
+.link-container {
+    display: flex;
+    gap: 20px
+}
+.links {
+    font-size: 16px;
+    color: #e5e7eb;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
