@@ -143,16 +143,17 @@ box-shadow:  15px 15px 30px #a8a8a8,
 }
 #quote-from {
     align-self: flex-end;
-    color:#00000045;
+    color:#000000a0;
 }
-#quote {
+a {
+    display: flex;
     color: #00000091;
     font-size: 50px;
     font-weight: 300;
-}
-p {
     margin: 0px;
+    text-decoration: none;
 }
+
 
 /* Section 4 */
 #section4 {
