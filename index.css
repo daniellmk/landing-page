@@ -65,9 +65,17 @@ li {
     object-fit: cover;
     min-width: auto;
     border-radius: 21px;
+    transition: .5s ease-in-out;
 background: #363636;
 box-shadow:  13px 13px 38px #000000d2,
              -13px -13px 38px #ffffff24;
+}
+#hero img:hover {
+    margin: 5px;
+    transform: scale(1.13);
+    box-shadow:  20px 20px 40px #000000d2,
+             -20px -20px 40px #ffffff16;
+    transition: .5s ease-in-out;
 }
 #hero button {
     height: 30px;
@@ -159,7 +167,6 @@ a {
 #section4 {
     padding: 100px 25%;
     background-color: #9d9d9d;
-    background-image: url();
 }
 #section4-container {
     display: flex;
