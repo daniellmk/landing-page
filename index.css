@@ -147,11 +147,16 @@ p {
     gap: 40px;
 }
 #section4-container button {
+    display: flex;
     border-radius: 7px;
     padding: 10px 30px;
     outline: white solid 2px;
     background-color: #3882f6;
+    justify-self: center;
     color: white;
+}
+#section4-btncontainer {
+    flex: 1 0 auto;
 }
 #section4-text h3  {
     margin: 0px;
